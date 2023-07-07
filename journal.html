@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="style.css">
+  <title>My Journal</title>
+</head>
+<body>
+  <div class="journal-container">
+    <h1>My Journal</h1>
+    <div class="week-days">
+      <div class="day-box">
+        <h2>Monday</h2>
+        <input type="text" id="mondayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('mondayInput')">Delete</button> 
+        <button class="save-entry-button" onclick="saveEntry('mondayInput')">Save</button>
+      </div>
+      <div class="day-box">
+        <h2>Tuesday</h2>
+        <input type="text" id="tuesdayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('tuesdayInput')">Delete</button>
+        <button class="save-entry-button" onclick="saveEntry('tuesdayInput')">Save</button> 
+      </div>
+      <div class="day-box">
+        <h2>Wednesday</h2>
+        <input type="text" id="wednesdayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('wednesdayInput')">Delete</button>
+        <button class="save-entry-button" onclick="saveEntry('wednesdayInput')">Save</button>
+      </div>
+      <div class="day-box">
+        <h2>Thursday</h2>
+        <input type="text" id="thursdayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('thursdayInput')">Delete</button>
+        <button class="save-entry-button" onclick="saveEntry('thursdayInput')">Save</button> 
+      </div>
+      <div class="day-box">
+        <h2>Friday</h2>
+        <input type="text" id="fridayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('fridayInput')">Delete</button> 
+        <button class="save-entry-button" onclick="saveEntry('fridayInput')">Save</button>
+      </div>
+      <div class="day-box">
+        <h2>Saturday</h2>
+        <input type="text" id="saturdayInput" placeholder="Enter your entry">
+        <button class="delete-button" onclick="deleteEntry('saturdayInput')">Delete</button>
+        <button class="save-entry-button" onclick="saveEntry('saturdayInput')">Save</button> 
+      </div>
+    </div>
+  </div>
+  <div>
+    <nav id = "back">
+        <a href = "index.html">BACK</a>
+    </nav>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

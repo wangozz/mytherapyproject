@@ -1,235 +1,255 @@
 body {
-    background-color: #DBD2C3;
-}
-/* style the main image */
-#img1{
-    width:100%;
-    height:500px;
-    position:;
-    top:10px;
-    left:50px;
-    border-radius: 30px;
-}
-/*style the signup button */
-#start{
-    background-color: #F0EDE6;
-    color: black;
-    padding: 10px 100px;
-    border: none;
-    border-radius: 50px;
-    cursor: pointer;
-    font-size: 16px;
+  background-color: #DBD2C3;
   }
-  
+  /* style the main image */
+  #img1{
+  width:100%;
+  height:500px;
+  top:10px;
+  left:50px;
+  border-radius: 30px;
+  }
+  /*style the signup button */
+  #start{
+  background-color: #F0EDE6;
+  color: black;
+  padding: 10px 100px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 16px;
+  }
   #my-button:hover {
-    background-color: #DBD2C3;
+  background-color: #D4BEA7;
   }
   /* style the second image */
   #img2{
-    width:350px;
-    height:400px;
-    position:;
-    top:10px;
-    left:50px;
-    border-radius: 20px;
-    
+  width:350px;
+  height:400px;
+  top:10px;
+  left:50px;
+  border-radius: 20px;
   }
-
+  
   /*style the main navigation bar*/
-  
   #nav {
-    position: fixed;
-    top: 20PX;
-    right: 10PX;
-    background-color: ;
-    width: 60%;
-    text-align: right;
+  position: fixed;
+  top: 20PX;
+  right: 10PX;
+  width: 60%;
+  text-align: right;
   }
-  
   #nav ul {
-    list-style: none;
-    display: inline-block;
-    padding: 5px 5px;
-    margin: 0;
+  list-style: none;
+  display: inline-block;
+  padding: 5px 5px;
+  margin: 0;
   }
-  
   #nav ul li {
-    display: inline-block;
-    margin-left: 10px;
+  display: inline-block;
+  margin-left: 10px;
   }
-  
   #nav ul li a {
-    text-decoration: none;
-    color: black;
-    padding: 20px;
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  }
+  #nav ul li a:hover {
+  background-color: #D4BEA7;
+  border-radius: 30px;
+  padding:10px 20px;
   }
   
-  #nav ul li a:hover {
-    background-color: #D4BEA7;
-    border-radius: 30px;
-    padding:10px 20px;
-  }
-
   /*Style the list of services*/
   #p1{
-    background-color: #D4BEA7;
-    color: black;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    text-align: center;
+  background-color: #D4BEA7;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
   }
   #p2{
-    background-color: #D4BEA7;
-    color: black;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    text-align: center;
+  background-color: #D4BEA7;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
   }
   #p3{
-    background-color: #D4BEA7;
-    color: black;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    text-align: center;
+  background-color: #D4BEA7;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
   }
   #p4{
-    background-color: #D4BEA7;
-    color: black;
-    padding: 5px 250px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 15px;
-    text-align: center;
+  background-color: #D4BEA7;
+  color: black;
+  padding: 5px 250px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  text-align: center;
   }
-
+  
   /* style quote text */
   #getstarted{
-    text-align: center;
+  text-align: center;
   }
-
+  
   /*style bottom navigation bar*/
-
+  
   /*style options list */
   .container {
-    display: flex; /* Use flexbox to create a flexible container */
-    align-items: center; /* Align items vertically at the top */
-    justify-content: center;
+  display: flex; 
+  align-items: center; 
+  justify-content: center;
   }
-  
   .container img {
-    width: 350px; /* Adjust the width of the image as needed */
-    margin-right: 20px; /* Add spacing between the image and the list */
+  width: 350px; 
+  margin-right: 20px; 
   }
-  
   .container .options {
-    list-style: none; 
-    padding: 10px 30px; /* Remove default padding */
-
-  }
+  list-style: none; 
+  padding: 10px 30px;
   
+  }
   .container .options li {
-    margin-bottom: 30px; /* Add spacing between list items */
+  margin-bottom: 30px; 
   }
-  
   /*style the button*/
   #start {
-    display: block; 
-    margin: 0 auto; 
-    text-align: center; 
+  display: block; 
+  margin: 0 auto; 
+  text-align: center; 
   }
   /*style the bottom navigation bar*/
   #nav2 {
-    position:; /* Fix the navigation bar in place */
-    bottom: 0; /* Position it at the bottom of the page */
-    width: 100%; /* Make it span the entire width of the page */
-    /* Add a background color */
-    margin:20px;
+  bottom: 0; 
+  width: 100%; 
+  margin:20px;
   }
-  
   #nav2 ul {
-    list-style: none; /* Remove default list styles */
-    margin: 0; /* Remove default margin */
-    padding: 0; /* Remove default padding */
-    display: flex; /* Use flexbox to create a horizontal layout */
-    justify-content: center; /* Center the list items horizontally */
+  list-style: none; 
+  margin: 0; 
+  padding: 0; 
+  display: flex; 
+  justify-content: center; 
   }
-  
   #nav2 li {
-    margin: 0 50px; /* Add spacing between list items */
+  margin: 0 50px;
   }
-  
   #nav2 li a {
-    color: black; /* Set the link color */
-    text-decoration: none; /* Remove underline */
-    color: black;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 10px;
-    text-align: center;
+  color: black; 
+  text-decoration: none; 
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 10px;
+  text-align: center;
   }
   #nav2 ul li a:hover {
-    background-color: #D4BEA7;
-    border-radius: 10px;
-    padding:5px 10px;
+  background-color: #D4BEA7;
+  border-radius: 10px;
+  padding:5px 10px;
   }
   /*style the input element*/
-
+  
   /*Style about.html*/
   .contain {
-    display: flex; /* Use flexbox to center the content vertically and horizontally */
-    flex-direction: column; /* Stack the elements vertically */
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
-    margin:80px;
-    padding:5px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin:80px;
+  padding:5px; 
   }
-  
-    #par{
-    text-align: center; 
-    max-width: 80%; 
-    margin-bottom: 20px; 
+  #par{
+  text-align: center; 
+  max-width: 80%; 
+  margin-bottom: 20px; 
   }
   #back {
-    display: flex; 
-    justify-content: center; 
-    margin-top: 20px; 
+  display: flex; 
+  justify-content: center; 
+  margin-top: 20px; 
   }
-  
   #back a {
-    padding: 10px 20px; 
-    background-color: #D4BEA7;
-    color: black; 
-    text-decoration: none;
-    border-radius: 10px;
+  padding: 10px 20px; 
+  background-color: #D4BEA7;
+  color: black; 
+  text-decoration: none;
+  border-radius: 10px;
   }
-  
   #back a:hover {
-    background-color: #D4BEA7; 
+  background-color: #D4BEA7; 
   }
   /* style contacts page */
   .cont {
-    display: flex; /* Use flexbox to center the content vertically and horizontally */
-    flex-direction: column; /* Stack the elements vertically */
-    justify-content: center; /* Center the content vertically */
-    align-items: center; /* Center the content horizontally */
-    margin:80px;
-    padding:5px; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  margin:80px;
+  padding:5px; 
   }
-
-
   
+/*style journal page */
+.journal-container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.week-days {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.day-box {
+  width: 200px;
+  padding: 20px;
+  background-color: #F0EDE6;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.delete-button {
+  margin-top: 10px;
+  background-color: #DBD2C3;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+.save-entry-button {
+  margin-top: 10px;
+  background-color: #DBD2C3;
+  color: black;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
 
   
   
